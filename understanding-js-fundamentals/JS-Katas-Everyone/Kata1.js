@@ -10,25 +10,3 @@ for (let i = 1; i <= 20; i++) {
     console.log(i);
   }
 }
-
-// Commit 1
-
-for () {
-  
-}
-
-// Commit 2
-
-for (let i = 1; i <=20; i++) {
-  if(i % 2 === 0) {
-    console.log(i)
-  }
-}
-
-// Commit 3
-
-for (let number = 1; number <= 20; number++){
-  if (number % 2 === 0){
-    console.log(number)
-  }
-}
