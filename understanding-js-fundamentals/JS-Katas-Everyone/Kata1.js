@@ -1,5 +1,9 @@
-// Commit 1
+// Commit 2
 
-for /* The loop we'll be using for this setup */ ( /* Where we'll be putting our variable*/ ) {
-  /* The "commands" we want executed */
+/*Adding in the means for our loop to count up*/
+for (let i = 1; i <=20; i++) {
+/*Adding a "command" to only write even numbers to the console*/
+  if(i % 2 === 0) {
+    console.log(i)
+  }
 }
