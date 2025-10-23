@@ -1,9 +1,7 @@
-// Commit 2
-
-/*Adding in the means for our loop to count up*/
-for (let i = 1; i <=20; i++) {
-/*Adding a "command" to only write even numbers to the console*/
-  if(i % 2 === 0) {
-    console.log(i)
+// Commit 3
+/*Replacing "i" to "number" to be more clear what's being printed*/
+for (let number = 1; number <= 20; number++){
+  if (number % 2 === 0){
+    console.log(number)
   }
 }
